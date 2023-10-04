@@ -1,0 +1,709 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    scroll-behavior: smooth;
+    height: 1000px; width: 100%;
+}
+header{
+    height: 70px; width: 100%;
+    background-color: black;
+    position: fixed;
+}
+.logo{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 10px;
+    font-style: italic;
+}
+ul {
+    display: flex;
+    justify-content: right;
+    padding-top: -30px;
+    
+}
+ul li{
+    list-style: none;
+    padding-left: 50px;
+    margin-top: -40px;
+    margin-right: 20px;
+    font-size: 20px; 
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 2px 10px white;
+}
+ul li a:hover{
+    color: crimson;
+}
+/*__________front page___________*/
+.food{
+    height: 640px; width: 100%;
+    background-image: url("images/recipe");
+    background-size: cover;
+}
+.f1{
+    padding-top: 360px;
+}
+.food input{
+    margin-right: 290px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 250px;
+    transition:transform 250ms;
+    box-shadow: 1px 2px 10px black;
+}
+.food input:hover{
+    transform: translatey( -5px);
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 280px;
+    text-shadow: 1px 2px 3px black;
+}
+.content{
+    margin-left: 300px;
+   margin-top: -190px;
+   font-style: italic;
+}
+.content h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+/*_______________________our menu____________________________*/
+.dishes{
+    height: auto; width: 100%;
+    background-color:white;
+}
+.dishes h5{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.dish1{
+    height: 530px; width: 400px;
+    background-color: black;
+    margin-right: 40px;
+}
+.dish2{
+    height: 530px; width: 400px;
+    background-color: black;
+    margin-right: 40px;
+}
+.dish3{
+    height: 530px; width: 400px;
+    background-color: black;
+}
+.dish4{
+    display: flex;
+    margin: 20px 40px;
+    padding: 10px 40px;
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    text-shadow: 1px 2px 5px black;
+}
+.d1{
+    background-image: url("images/512x512bb.jpg");
+    background-size: cover;
+    height: 310px; width: 100%;
+    transition: transform 250ms;
+    }
+.d1:hover{
+        transform: translateY(-30px);
+    }
+.dish1 h2{
+    color: crimson;
+     padding-top: 2px;
+    text-align: center;
+     letter-spacing: 2px;
+     font-size: 30px;
+     text-shadow: 1px 2px 2px white;
+     text-decoration: none;
+    } 
+    .dish1 a{
+        text-decoration: none;
+    }
+.dish1 h3{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.dish1 h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -20px;
+}
+.dish1 button{
+    height: 40px;width: 135px;
+    background-color: crimson;
+    margin-left: 115px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px white;
+}
+.dish1 button:hover{
+    background-color: transparent;
+    color: white;
+}
+.d2{
+    background-image: url("images/456953.jpg");
+    background-size: cover;
+    height: 310px; width: 100%;
+    transition: transform 250ms;
+    }
+.d2:hover{
+        transform: translateY(-30px);
+    }
+.dish2 h2{
+    color: crimson;
+     padding-top: 2px;
+    text-align: center;
+     letter-spacing: 2px;
+     font-size: 30px;
+     text-shadow: 1px 2px 2px white;
+    } 
+.dish2 h3{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.dish2 h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -20px;
+}
+.dish2 button{
+    height: 40px;width: 135px;
+    background-color: crimson;
+    margin-left: 115px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px white;
+}
+.dish2 button:hover{
+    background-color: transparent;
+    color: white;
+}
+.d3{
+    background-image: url("images/yummy-ice-cream-images.jpg");
+    background-size: cover;
+    height: 310px; width: 100%;
+    transition: transform 250ms;
+    }
+.d3:hover{
+        transform: translateY(-30px);
+    }
+.dish3 h2{
+    color: crimson;
+     padding-top: 2px;
+    text-align: center;
+     letter-spacing: 2px;
+     font-size: 30px;
+     text-shadow: 1px 2px 2px white;
+    } 
+.dish3 h3{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.dish3 h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -20px;
+}
+.dish3 button{
+    height: 40px;width: 135px;
+    background-color: crimson;
+    margin-left: 115px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px white;
+}
+.dish3 button:hover{
+    background-color: transparent;
+    color: white;
+}
+.dish5{
+    height: 530px; width: 400px;
+    background-color: black;
+    margin-right: 40px;
+}
+.dish6{
+    height: 530px; width: 400px;
+    background-color: black;
+    margin-right: 40px;
+}
+.dish7{
+    height: 530px; width: 400px;
+    background-color: black;
+}
+.dish8{
+    display: flex;
+    margin: 20px 40px;
+    padding: 0px 40px;
+}
+.d4{
+    background-image: url("images/burger.jpg");
+    background-size: cover;
+    height: 310px; width: 100%;
+    transition: transform 250ms;
+    }
+.d4:hover{
+        transform: translateY(-30px);
+    }
+.dish5 h2{
+    color: crimson;
+     padding-top: 2px;
+    text-align: center;
+     letter-spacing: 2px;
+     font-size: 30px;
+     text-shadow: 1px 2px 2px white;
+    } 
+    .dish5 a{
+        text-decoration: none;
+    }
+.dish5 h3{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.dish5 h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -20px;
+}
+.dish5 button{
+    height: 40px;width: 135px;
+    background-color: crimson;
+    margin-left: 115px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px white;
+}
+.dish5 button:hover{
+    background-color: transparent;
+    color: white;
+}
+.d5{
+    background-image: url("images/Gol_Gappa_Chaat.jpg");
+    background-size: cover;
+    height: 310px; width: 100%;
+    transition: transform 250ms;
+    }
+.d5:hover{
+        transform: translateY(-30px);
+    }
+.dish6 h2{
+    color: crimson;
+     padding-top: 2px;
+    text-align: center;
+     letter-spacing: 2px;
+     font-size: 30px;
+     text-shadow: 1px 2px 2px white;
+    } 
+.dish6 h3{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.dish6 h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -20px;
+}
+.dish6 button{
+    height: 40px;width: 135px;
+    background-color: crimson;
+    margin-left: 115px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px white;
+}
+.dish6 button:hover{
+    background-color: transparent;
+    color: white;
+}
+.d6{
+    background-image: url("images/350913.jpg");
+    background-size: cover;
+    height: 310px; width: 100%;
+    transition: transform 250ms;
+    }
+.d6:hover{
+        transform: translateY(-30px);
+    }
+.dish7 h2{
+    color: crimson;
+     padding-top: 2px;
+    text-align: center;
+     letter-spacing: 2px;
+     font-size: 30px;
+     text-shadow: 1px 2px 2px white;
+    } 
+.dish7 h3{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.dish7 h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -20px;
+}
+.dish7 button{
+    height: 40px;width: 135px;
+    background-color: crimson;
+    margin-left: 115px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px white;
+}
+.dish7 button:hover{
+    background-color: transparent;
+    color: white;
+}
+.dish9{
+    height: 530px; width: 400px;
+    background-color: black;
+    margin-right: 40px;  
+}
+.dish10{
+    height: 530px; width: 400px;
+    background-color: black;
+    margin-right: 40px;  
+}
+.dish11{
+    height: 530px; width: 400px;
+    background-color: black;
+}
+.dish12{
+   display: flex; 
+   margin: 20px 40px;
+   padding: 0px 40px;
+}
+.d7{
+    background-image: url("images/wp3053278.jpg");
+    background-size: cover;
+    height: 310px; width: 100%;
+    transition: transform 250ms;
+    }
+.d7:hover{
+        transform: translateY(-30px);
+    }
+.dish9 h2{
+    color: crimson;
+     padding-top: 2px;
+    text-align: center;
+     letter-spacing: 2px;
+     font-size: 30px;
+     text-shadow: 1px 2px 2px white;
+    } 
+.dish9 h3{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.dish9 h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -20px;
+}
+.dish9 button{
+    height: 40px;width: 135px;
+    background-color: crimson;
+    margin-left: 115px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px white;
+}
+.dish9 button:hover{
+    background-color: transparent;
+    color: white;
+}
+.d8{
+    background-image: url("images/th.jpg");
+    background-size: cover;
+    height: 310px; width: 100%;
+    transition: transform 250ms;
+    }
+.d8:hover{
+        transform: translateY(-30px);
+    }
+.dish10 h2{
+    color: crimson;
+     padding-top: 2px;
+    text-align: center;
+     letter-spacing: 2px;
+     font-size: 30px;
+     text-shadow: 1px 2px 2px white;
+    } 
+.dish10 h3{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.dish10 h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -20px;
+}
+.dish10 button{
+    height: 40px;width: 135px;
+    background-color: crimson;
+    margin-left: 115px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px white;
+}
+.dish10 button:hover{
+    background-color: transparent;
+    color: white;
+}
+.d9{
+    background-image: url("images/wp3495556.jpg");
+    background-size: cover;
+    height: 310px; width: 100%;
+    transition: transform 250ms;
+    }
+.d9:hover{
+        transform: translateY(-30px);
+    }
+.dish11 h2{
+    color: crimson;
+     padding-top: 2px;
+    text-align: center;
+     letter-spacing: 2px;
+     font-size: 30px;
+     text-shadow: 1px 2px 2px white;
+    } 
+.dish11 h3{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.dish11 h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -20px;
+}
+.dish11 button{
+    height: 40px;width: 135px;
+    background-color: crimson;
+    margin-left: 115px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px white;
+}
+.dish11 button:hover{
+    background-color: transparent;
+    color: white;
+}
+/*_______________Reviews_____________*/
+.Reviews{
+    background-color:black;
+    width: 100%; height: auto;
+    margin: 50px 0px;
+}
+.Reviews h2{
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 1px 2px 5px white;
+}
+.R1{
+    height: 470px; width: 305px;
+    background-color:transparent;
+    border: 5px solid gray;
+    margin-right: 20px;
+    box-shadow: 2px 2px 10px crimson;
+}
+.R2{
+    height: 470px; width: 305px;
+    background-color:transparent;
+    border: 5px solid gray;
+    margin-right: 20px;
+    box-shadow: 2px 2px 10px crimson;
+}
+.R3{
+    height: 470px; width: 305px;
+    background-color: transparen;
+    border: 5px solid gray;
+    margin-right: 20px;
+    box-shadow: 2px 2px 10px crimson;
+}.R4{
+    height: 470px; width: 305px;
+    background-color: transparent;
+    border: 5px solid gray;
+    box-shadow: 2px 2px 10px crimson;
+}
+.Review{
+    display: flex;
+    padding: 10px 40px;
+}
+.i1{
+    height: 240px; width: 240px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0747/3829/products/mNS0089_1024x1024.jpeg?v=1571444064);
+    background-size: cover;
+    transition: transform 250ms;
+    border: 3px solid gray;
+    box-shadow: 2px 2px 20px white ;
+    border-radius: 50%;
+    margin:20px 30px 0px 30px
+}
+.i1:hover{
+    transform: translateY(-70px);
+}
+.R1 h2{
+    font-size: 20px;
+}
+.R1 p{
+    padding: 0px 20px;
+    color: white;
+}
+.R1 p:hover{
+    color: crimson;
+}
+.i2{
+    height: 240px; width: 240px;
+    background-image: url(https://wallpapercave.com/wp/wp6250124.png);
+    background-size: cover;
+    transition: transform 250ms;
+    border: 3px solid gray;
+    box-shadow: 2px 2px 20px white ;
+    border-radius: 50%;
+    margin:20px 30px 0px 30px
+}
+.i2:hover{
+    transform: translateY(-70px);
+}
+.R2 h2{
+    font-size: 20px;
+}
+.R2 p{
+    padding: 0px 20px;
+    color: white;
+}
+.R2 p:hover{
+    color: crimson;
+}
+.i3{
+    height: 240px; width: 240px;
+    background-image: url(https://wallpapercave.com/wp/wp5092444.jpg);
+    background-size: cover;
+    transition: transform 250ms;
+    border: 3px solid gray;
+    box-shadow: 2px 2px 20px white ;
+    border-radius: 50%;
+    margin:20px 30px 0px 30px
+}
+.i3:hover{
+    transform: translateY(-70px);
+}
+.R3 h2{
+    font-size: 20px;
+}
+.R3 p{
+    padding: 0px 20px;
+    color: white;
+}
+.R3 p:hover{
+    color: crimson;
+}
+.i4{
+    height: 240px; width: 240px;
+    background-image: url(https://wallpapercave.com/wp/wp8921827.jpg);
+    background-size: cover;
+    transition: transform 250ms;
+    border: 3px solid gray;
+    box-shadow: 2px 2px 20px white ;
+    border-radius: 50%;
+    margin:20px 30px 0px 30px
+}
+.i4:hover{
+    transform: translateY(-70px);
+}
+.R4 h2{
+    font-size: 20px;
+}
+.R4 p{
+    padding: 0px 20px;
+    color: white;
+}
+.R4 p:hover{
+    color: crimson;
+}
+/*_____________order____________*/
+.Order{
+    width: 100%; height: 580px;
+    background-image: url("images/1844254.jpg");
+    background-size: cover;
+}.Order h2{
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 1px 2px 30px black;
+}
+form{
+    height: 520px; width: 300px;
+    background-color: transparent;
+    margin-left: 80px;
+}
+form input{
+    height: 30px; width: 250px;
+    font-size: 15px;
+    box-shadow: 2px 2px 30px black;
+}
+label{
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 20px crimson;
+}
+form button{
+    cursor: pointer;
+    height: 40px; width: 160px;
+    font-size: 20px;
+    background-color: crimson;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px crimson;
+    margin-top: 10px;
+}
+/*_____________footer___________*/
+.foot{
+width: 100%; height:250px;
+background-color: gray;
+margin-top: 10px;
+}
+.col{
+    margin: 10px 70px;
+}
+.col a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 20px;
+    transition: transform 250ms;
+}
+.col:hover{
+    transform: translateY(-20px);
+}
+.row{
+    display: flex;
+    padding: 20px;
+}
+.foot h2{
+font-size: 30px;
+transition: transform 250ms;
+}
+.foot h2:hover{
+    font-family: cursive;
+    color: white;
+    transform: translateY(-20px);
+}

@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    scroll-behavior: smooth;
+    background-color: black;
+    margin-left: 30px;
+}
+h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.image{
+    height: 300px;width: 300px;
+    background-image: url("images/burger.jpg");
+    background-size: cover;
+    box-shadow: 1px 2px 20px white;
+    margin-top: 10px;
+    transition: transform 250ms;
+}
+.image:hover{
+    transform: translateY(-30px);
+}
+h2{
+    font-size: 30px;
+    color: crimson;
+}
+h3{
+    color: #fff;
+}
+p{
+    color: #fff;}
+    h4{
+        color: crimson;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    h5{
+        color: crimson;
+        font-size: 30px;
+    }
+    .tip{
+        color: #fff;
+        height: auto; width: 650px;
+        border: 3px solid white;
+        box-shadow: 2px 3px 10px white;
+        padding: 10px;
+    }
+    .tip p{
+        color: #fff;
+    }
